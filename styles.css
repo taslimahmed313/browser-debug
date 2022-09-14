@@ -190,3 +190,13 @@ button {
     flex-direction: column;
   }
 }
+@media only screen and (min-width: 800px) {
+  #histories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .card {
+    display: block;
+  }
+}
